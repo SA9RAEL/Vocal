@@ -3,47 +3,54 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".StartActivity">
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/imageView2"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
         android:background="@drawable/circle"
         android:clipToOutline="true"
         android:scaleType="centerCrop"
-        android:layout_width="190dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="155dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/mic_logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/app_name"
+        android:layout_marginTop="26dp"
         android:fontFamily="serif-monospace"
-        android:textSize="36sp"
+        android:text="@string/enjoy_vocal_lessons_with_our_school"
+        android:textAlignment="center"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/see_you_in_class"
-        android:textSize="32sp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_user_button_btn"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:background="@drawable/black_btn"
+        android:elevation="3dp"
         android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView3"
