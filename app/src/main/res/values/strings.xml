@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Vocal Lessons</string>
+    <string name="make_music_together">Make Music Together!</string>
+    <string name="design_by_sa9ra">Design by SA9RA</string>
+    <string name="enjoy_vocal_lessons_with_our_school">Enjoy Vocal Lessons\n With Our School</string>
+    <string name="next">Next</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="email_or_phone_number">Email or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="or">Or</string>
+    <string name="continue_with">Continue With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
 </resources>
