@@ -18,4 +18,16 @@
     <string name="sign_up_with">Sign Up With</string>
     <string name="create_account">Create Account</string>
     <string name="already_have_an_account">Already Have An Account</string>
+    <string name="it_s_your_best_vocal_coach">It\'s Your Best Vocal Coach!</string>
+    <string name="let_s_get_to_know_him_better">Let\'s get to know him better.</string>
+    <string name="he_looks_cool_doesn_t_he">He looks cool, doesn\'t he?</string>
+    <string name="description_text">Teaching experience is 3 years. \n\nThe main objectives of the training are to consolidate existing skills, develop new ones, and help each student to unlock their unique artistic potential and gain confidence on stage.\n\nIn his practice, Dmitry uses proven vocal techniques, such as EVT and Seth Riggs, aimed at removing bodily and emotional blocks, developing a natural sound, and taking into account human anatomy.\n\nHe approaches training individually, considering the goals and level of each student. If you are looking to find your unique vocal style and inner freedom on stage, Dmitry would be happy to see you in his class.</string>
+    <string name="sing_up_for_lesson">Sign up for a lesson!</string>
+    <string name="let_s_choose_date">Choose a date and time.</string>
+    <string name="it_s_almost_done">It\'s almost done!</string>
+    <string name="select_date">Select Date</string>
+    <string name="your_date_is">Your date is...</string>
+    <string name="your_time_is">Your time is...</string>
+    <string name="confirm">Confirm!</string>
+    <string name="select_time">Select time</string>
 </resources>
