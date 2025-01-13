@@ -52,7 +52,6 @@
         android:id="@+id/confirm_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="65dp"
         android:background="@drawable/black_btn"
         android:elevation="8dp"
         android:fontFamily="serif-monospace"
@@ -65,7 +64,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_time_btn" />
 
 
     <TextView
@@ -74,6 +74,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/your_date_is"
+        android:fontFamily="serif-monospace"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choose_date_tv" />
@@ -114,14 +118,17 @@
         android:layout_marginTop="40dp"
         app:layout_constraintTop_toBottomOf="@+id/user_time_tv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/user_time_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColorHint="@color/black"
         android:hint="@string/your_time_is"
         app:layout_constraintBottom_toTopOf="@+id/select_time_btn"
         app:layout_constraintEnd_toEndOf="parent"
